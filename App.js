@@ -8,13 +8,17 @@ import ExercizeScreen from './screens/ExercizeScreen';
 import ExercizeScreen2 from './screens/ExercizeScreen2';
 import Quote from './screens/Quote';
 import ListScreen from './screens/ListScreen';
+import Student from './screens/student';
+import buttons from './screens/buttons';
+import QuizScreen from './screens/QuizScreen';
+
 const Stack = createStackNavigator();
 
 export default function App() {
   return ( 
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={ListScreen}></Stack.Screen>
+        <Stack.Screen name="Home" component={QuizScreen}></Stack.Screen>
         <Stack.Screen name="Secondary" component={SecondaryScreen}></Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>
