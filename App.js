@@ -12,6 +12,8 @@ import Student from './screens/student';
 import buttons from './screens/buttons';
 import QuizScreen from './screens/QuizScreen';
 import MenuScreen from "./screens/MenuScreen";
+import HomeScreen from './screens/HomeScreen';
+import ProfileScreen from './screens/ProfileScreen';
 
 
 const Stack = createStackNavigator();
@@ -20,10 +22,12 @@ export default function App() {
   return ( 
     <NavigationContainer>
       <Stack.Navigator initialRouteName='Menu'>
-        <Stack.Screen name="Home" component={MainScreen}></Stack.Screen>
+        <Stack.Screen name="Main" component={MainScreen}></Stack.Screen>
         <Stack.Screen name="List" component={ListScreen}></Stack.Screen>
         <Stack.Screen name="Button" component={buttons}></Stack.Screen>
         <Stack.Screen name="Menu" component={MenuScreen}></Stack.Screen>
+        <Stack.Screen name="Home" component={HomeScreen}></Stack.Screen>
+        <Stack.Screen name="Profile" component={ProfileScreen}></Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>
   );
