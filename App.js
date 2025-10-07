@@ -11,15 +11,19 @@ import ListScreen from './screens/ListScreen';
 import Student from './screens/student';
 import buttons from './screens/buttons';
 import QuizScreen from './screens/QuizScreen';
+import MenuScreen from "./screens/MenuScreen";
+
 
 const Stack = createStackNavigator();
 
 export default function App() {
   return ( 
     <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="Home" component={QuizScreen}></Stack.Screen>
-        <Stack.Screen name="Secondary" component={SecondaryScreen}></Stack.Screen>
+      <Stack.Navigator initialRouteName='Menu'>
+        <Stack.Screen name="Home" component={MainScreen}></Stack.Screen>
+        <Stack.Screen name="List" component={ListScreen}></Stack.Screen>
+        <Stack.Screen name="Button" component={buttons}></Stack.Screen>
+        <Stack.Screen name="Menu" component={MenuScreen}></Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>
   );
