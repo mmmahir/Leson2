@@ -13,6 +13,10 @@ const StudentDetails = (props) => {
             <View style={style.infoWrapper}>
                 <Text style={style.name}>{props.name}</Text>
                 <Text>{props.description}</Text>
+                <View>
+                    <Button title="Show name" onPress={() => console.log(props.name)} style={style.button} />
+
+                </View>
             </View>
         </View>
     </View>;
@@ -29,8 +33,8 @@ const style = StyleSheet.create({
 
     },
     img:{
-        width:100,
-        height:100,
+        width:115,
+        height:115,
         borderTopLeftRadius:8,
         borderBottomLeftRadius:8
     },
@@ -41,6 +45,7 @@ const style = StyleSheet.create({
     name:{
         fontWeight:"bold"
     }
+
 })
 
 
