@@ -14,20 +14,22 @@ import QuizScreen from './screens/QuizScreen';
 import MenuScreen from "./screens/MenuScreen";
 import HomeScreen from './screens/HomeScreen';
 import ProfileScreen from './screens/ProfileScreen';
-
+import StudentScreen from './screens/StudentScreen';
 
 const Stack = createStackNavigator();
 
 export default function App() {
   return ( 
     <NavigationContainer>
-      <Stack.Navigator initialRouteName='Menu'>
+      <Stack.Navigator initialRouteName='Students'>
+        <Stack.Screen name="Students" component={StudentScreen}></Stack.Screen>
         <Stack.Screen name="Main" component={MainScreen}></Stack.Screen>
         <Stack.Screen name="List" component={ListScreen}></Stack.Screen>
         <Stack.Screen name="Button" component={buttons}></Stack.Screen>
         <Stack.Screen name="Menu" component={MenuScreen}></Stack.Screen>
         <Stack.Screen name="Home" component={HomeScreen}></Stack.Screen>
         <Stack.Screen name="Profile" component={ProfileScreen}></Stack.Screen>
+
       </Stack.Navigator>
     </NavigationContainer>
   );
