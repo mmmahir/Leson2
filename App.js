@@ -21,14 +21,15 @@ const Stack = createStackNavigator();
 export default function App() {
   return ( 
     <NavigationContainer>
-      <Stack.Navigator initialRouteName='Students'>
+      <Stack.Navigator initialRouteName='Profile'>
+        <Stack.Screen name="Profile" component={ProfileScreen}></Stack.Screen>
         <Stack.Screen name="Students" component={StudentScreen}></Stack.Screen>
         <Stack.Screen name="Main" component={MainScreen}></Stack.Screen>
         <Stack.Screen name="List" component={ListScreen}></Stack.Screen>
         <Stack.Screen name="Button" component={buttons}></Stack.Screen>
         <Stack.Screen name="Menu" component={MenuScreen}></Stack.Screen>
         <Stack.Screen name="Home" component={HomeScreen}></Stack.Screen>
-        <Stack.Screen name="Profile" component={ProfileScreen}></Stack.Screen>
+
 
       </Stack.Navigator>
     </NavigationContainer>

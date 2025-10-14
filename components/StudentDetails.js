@@ -14,7 +14,7 @@ const StudentDetails = (props) => {
                 <Text style={style.name}>{props.name}</Text>
                 <Text>{props.description}</Text>
                 <View>
-                    <Button title="Show name" onPress={() => console.log(props.name)} style={style.button} />
+                    <Button title="View user" onPress={() => props.navigation.navigate("Profile")} style={style.button} name={props.name} job="job name" description={props.description}/>
 
                 </View>
             </View>
