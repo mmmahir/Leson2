@@ -15,13 +15,17 @@ import MenuScreen from "./screens/MenuScreen";
 import HomeScreen from './screens/HomeScreen';
 import ProfileScreen from './screens/ProfileScreen';
 import StudentScreen from './screens/StudentScreen';
+import BoxScreen from './screens/BoxScreen';
+import BoxScreenChalange from './screens/BoxScreenChalange';
 
 const Stack = createStackNavigator();
 
 export default function App() {
   return ( 
     <NavigationContainer>
-      <Stack.Navigator initialRouteName='Profile'>
+      <Stack.Navigator initialRouteName='Menu'>
+        <Stack.Screen name="BoxChalange" component={BoxScreenChalange}></Stack.Screen>
+        <Stack.Screen name="Box" component={BoxScreen}></Stack.Screen>
         <Stack.Screen name="Profile" component={ProfileScreen}></Stack.Screen>
         <Stack.Screen name="Students" component={StudentScreen}></Stack.Screen>
         <Stack.Screen name="Main" component={MainScreen}></Stack.Screen>
