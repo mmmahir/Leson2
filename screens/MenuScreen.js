@@ -13,6 +13,7 @@ const MenuScreen = (props) => {
         </TouchableOpacity>
         <Button title="Home" onPress={() => props.navigation.navigate("Home")}  />
         <Button title="Chalange" onPress={() => props.navigation.navigate("BoxChalange")}  />
+        <Button title="Posts" onPress={() => props.navigation.navigate("Post")}  />
     </View>;
 };
 
