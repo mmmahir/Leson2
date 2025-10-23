@@ -19,13 +19,14 @@ import BoxScreen from './screens/BoxScreen';
 import BoxScreenChalange from './screens/BoxScreenChalange';
 import PostScreen from './screens/PostScreen';
 import UserScreen from './screens/UserScreen';
+import CommentsScreen from './screens/CommenntsScreen';
 
 const Stack = createStackNavigator();
 
 export default function App() {
   return ( 
     <NavigationContainer>
-      <Stack.Navigator initialRouteName='Post'>
+        <Stack.Navigator initialRouteName='Comments'>
         <Stack.Screen name="BoxChalange" component={BoxScreenChalange}></Stack.Screen>
         <Stack.Screen name="Box" component={BoxScreen}></Stack.Screen>
         <Stack.Screen name="Profile" component={ProfileScreen}></Stack.Screen>
@@ -37,6 +38,7 @@ export default function App() {
         <Stack.Screen name="Home" component={HomeScreen}></Stack.Screen>
         <Stack.Screen name="Post" component={PostScreen}></Stack.Screen>
         <Stack.Screen name="User" component={UserScreen}></Stack.Screen>
+        <Stack.Screen name="Comments" component={CommentsScreen}></Stack.Screen>
 
 
 
