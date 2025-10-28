@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Cappadocia",
+        "country": "Turkey",
+        "population": 62498,
+        "description": "Cappadocia, a semi-arid region in central Turkey, is known for its distinctive “fairy chimneys,” tall, cone-shaped rock formations clustered in Monks Valley, Göreme and elsewhere."
+    },
+    {
+        "id": 2,
+        "name": "Philippines",
+        "country": "Banaue",
+        "population": 4253486,
+        "description":  "An archipelago of some 7,000 islands, the Philippines is a fun destination"
+    },
+    {
+        "id" : 3,
+        "name" : "Vietnam",
+        "country" : "Thailand",
+        "population": 41534,
+        "description" : "On your next trip to South East Asia skip the touristy Thailand and head to Vietnam instead. "
+    },
+    {
+        "id" : 4,
+        "name" : "Indonesia",
+        "country" : "Bali ",
+        "population": 784164,
+        "description" : "Another country with numerous islands to explore is Indonesia."
+    },
+    {
+        "id" : 5,
+        "name" : "Vienna’s ",
+        "country" : "Austria",
+        "population": 479456,
+        "description" : "Vienna’s medieval architecture, cobbled streets and quaint cafes make it a charming city. "
+    },
+    {
+        "id" : 6,
+        "name" : "Kruger National Park",
+        "country" : "South Africa",
+        "population": 214156,
+        "description" : "Offering a wide array of options, South Africa is another destination that should be on your bucket list."
+    }
+]
