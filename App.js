@@ -22,13 +22,14 @@ import UserScreen from './screens/UserScreen';
 import CommentsScreen from './screens/CommenntsScreen';
 import CountriesScreen from './screens/CountriesScreen';
 import CountriesDetailsScreen from './screens/CountryDetailsScreen';
+import ProductsScreen from './screens/ProductsScreen';
 
 const Stack = createStackNavigator();
 
 export default function App() {
   return ( 
     <NavigationContainer>
-        <Stack.Navigator initialRouteName='Countries'>
+        <Stack.Navigator initialRouteName='Products'>
         <Stack.Screen name="BoxChalange" component={BoxScreenChalange}></Stack.Screen>
         <Stack.Screen name="Box" component={BoxScreen}></Stack.Screen>
         <Stack.Screen name="Profile" component={ProfileScreen}></Stack.Screen>
@@ -43,6 +44,7 @@ export default function App() {
         <Stack.Screen name="Comments" component={CommentsScreen}></Stack.Screen>
         <Stack.Screen name="Countries" component={CountriesScreen}></Stack.Screen>
         <Stack.Screen name="CountryDetails" component={CountriesDetailsScreen}></Stack.Screen>
+        <Stack.Screen name="Products" component={ProductsScreen}></Stack.Screen>
 
 
 
