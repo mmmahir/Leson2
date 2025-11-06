@@ -4,7 +4,7 @@
         "id": 1,
         "name": "Paper towel",
         "category": "Household",
-        "price": "$4",
+        "price": 4,
         "stock": "Yes",
         "image": "https://s.turbifycdn.com/aah/vickerey/pre-de-provence-large-french-bath-soap-250g-720.jpg",
         "description": "Lorem ipsum dolor sit amet"
@@ -13,7 +13,7 @@
         "id": 2,
         "name": "Milk",
         "category": "Groceries",
-        "price": "$3",
+        "price": 3,
         "stock": "Yes",
         "image": "https://i5.walmartimages.com/seo/Great-Value-Whole-Vitamin-D-Milk-Gallon-Plastic-Jug-128-Fl-Oz_6a7b09b4-f51d-4bea-a01c-85767f1b481a.86876244397d83ce6cdedb030abe6e4a.jpeg",
         "description": "Lorem ipsum dolor sit amet"
@@ -22,7 +22,7 @@
         "id": 3,
         "name": "AA batteries",
         "category": "Electronics",
-        "price": "$6",
+        "price": 6,
         "stock": "Yes",
         "image": "https://d17zv3ray5yxvp.cloudfront.net/variants/jl9hltpwczx7sncz89hleyq743xq/357327d81e7592a6661fbca6215a61db162ccd438802a608d05fb668bf373162",
         "description": "Lorem ipsum dolor sit amet"
@@ -31,7 +31,7 @@
         "id": 4,
         "name": "T-shirt",
         "category": "Clothing",
-        "price": "$12",
+        "price": 12,
         "stock": "Yes",
         "image": "https://colorfulstandard.com/cdn/shop/files/CS2056_Male_OversizedOrganicT-Shirt-DeepBlack_2_2adc696d-0930-4a7f-86b1-61ad0c6dc3e9.jpg?v=1745834597&width=3000",
         "description": "Lorem ipsum dolor sit amet"
@@ -40,7 +40,7 @@
         "id": 5,
         "name": "Bread",
         "category": "Groceries",
-        "price": "$2",
+        "price": 2,
         "stock": "Yes",
         "image": "https://i.ytimg.com/vi/hYuc9kW2OfA/maxresdefault.jpg",
         "description": "Lorem ipsum dolor sit amet"
@@ -49,7 +49,7 @@
         "id": 6,
         "name": "Rice",
         "category": "Groceries",
-        "price": "$2",
+        "price": 2,
         "stock": "Yes",
         "image": "https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
         "description": "Lorem ipsum dolor sit amet"
@@ -58,7 +58,7 @@
         "id": 7,
         "name": "Pencil",
         "category": "School suplies",
-        "price": "$1",
+        "price": 1,
         "stock": "Yes",
         "image": "https://images.immediate.co.uk/production/volatile/sites/30/2013/05/rice-a941d59.jpg",
         "description": "Lorem ipsum dolor sit amet"
@@ -67,7 +67,7 @@
         "id": 8,
         "name": "Soap",
         "category": "Personal care",
-        "price": "$5",
+        "price": 5,
         "stock": "Yes",
         "image": "https://s.turbifycdn.com/aah/vickerey/pre-de-provence-large-french-bath-soap-250g-720.jpg",
         "description": "Lorem ipsum dolor sit amet"

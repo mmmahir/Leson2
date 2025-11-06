@@ -10,7 +10,7 @@ const Product = (props) => {
         <Text style={style.title}>{props.name}</Text>
         <Text>{props.description}</Text>
         <Text>In stock: {props.stock}</Text>
-        <Text style={style.price}>{props.price}</Text>
+        <Text style={style.price}>${props.price}</Text>
 
     </View>;
 };
